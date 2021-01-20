@@ -2,6 +2,10 @@
 
 In this coursework we want to test what you've learnt in the previous coursework.
 
+## Before Starting
+
+Please make sure you have forked this repository to your account before starting.
+
 ## Tasks
 
 ### 1) Find my script
