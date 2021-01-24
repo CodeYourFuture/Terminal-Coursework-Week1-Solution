@@ -28,6 +28,15 @@ cd Scripts
 ls
 ```
 
+You can also combine the multiple `cd` commands into one, like:
+
+```shell
+cd MyDocuments/Projects/MyFirstWebsite/Scripts
+ls
+```
+
+Both approaches are fine!
+
 ### 2) Find my Hotel Photo
 
 Great work!
@@ -45,6 +54,13 @@ cd ..
 cd Photos/
 cd HolidayJuly
 cd Hotel
+ls
+```
+
+You can also combine the multiple `cd` commands into one, like:
+
+```shell
+cd ../../../Photos/HolidayJuly/Hotel
 ls
 ```
 
