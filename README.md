@@ -20,11 +20,22 @@ Hint: You should use `cd` and `ls`.
 
 #### 1) Answer
 
+```shell
 cd MyDocuments/
 cd Projects/
 cd MyFirstWebsite/
 cd Scripts
 ls
+```
+
+You can also combine the multiple `cd` commands into one, like:
+
+```shell
+cd MyDocuments/Projects/MyFirstWebsite/Scripts
+ls
+```
+
+Both approaches are fine!
 
 ### 2) Find my Hotel Photo
 
@@ -36,6 +47,7 @@ Next, I want to try and find the photo of my hotel from my holiday in July that 
 
 #### 2) Answer
 
+```shell
 cd ..
 cd ..
 cd ..
@@ -43,6 +55,14 @@ cd Photos/
 cd HolidayJuly
 cd Hotel
 ls
+```
+
+You can also combine the multiple `cd` commands into one, like:
+
+```shell
+cd ../../../Photos/HolidayJuly/Hotel
+ls
+```
 
 ### 3) Counting Script
 
@@ -66,6 +86,7 @@ For this task, I want you to **stop** the counter when I have counted to 10.
 
 Copy the output of the script here
 
+```console
 $ ./count_to_100.sh
 I have counted to 1
 I have counted to 2
@@ -77,6 +98,8 @@ I have counted to 7
 I have counted to 8
 I have counted to 9
 I have counted to 10
+^C
+```
 
 ### 4) Quiz
 
